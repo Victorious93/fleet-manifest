@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-20T03:20:00Z",
+  "apps": [
+    {
+      "id": "droidcommand-ai",
+      "name": "DroidCommand AI",
+      "repo": "Victorious93/droidcommand-AI",
+      "applicationId": "ai.droidcommand.app",
+      "versionName": "0.1.0-phase0",
+      "versionCode": 1,
+      "minSdk": 28,
+      "debugBuild": true,
+      "buildType": "debug",
+      "releaseTag": "v0.1.0-phase0",
+      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.0-phase0",
+      "publishedAt": "2026-10-14T22:20:11Z",
+      "certSha256": null,
+      "assets": [
+        {
+          "abi": "arm64-v8a",
+          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.0-phase0/app-arm64-debug.apk",
+          "sizeBytes": 207429826,
+          "sha256": "5f1b0737be2eb70d73644053eeb79fa2a6f438dce05a8a0fb776f9b2495e531a"
+        },
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.0-phase0/app-debug.apk",
+          "sizeBytes": 393016550,
+          "sha256": "99d23c485360dc9cdce8ff8c84fea86d8b1e774e777f72833ba643cac629e9f4"
+        }
+      ]
+    },
+    {
+      "id": "rootforge-os",
+      "name": "RootForge OS (Android host)",
+      "repo": "Victorious93/rootforge-os",
+      "applicationId": "ai.rootforge.os.debug",
+      "versionName": "0.1.0-debug",
+      "versionCode": 1,
+      "minSdk": 26,
+      "debugBuild": true,
+      "buildType": "debug",
+      "releaseTag": "v0.2.0",
+      "releaseNotesUrl": "https://github.com/Victorious93/rootforge-os/releases/tag/v0.2.0",
+      "publishedAt": "2026-10-15T04:35:52Z",
+      "certSha256": "73:BD:7D:4A:2E:EA:C2:11:A9:83:15:66:AE:33:0A:54:B8:18:A0:02:22:F4:68:2C:4C:70:E1:B1:FF:71:45:CA",
+      "assets": [
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/rootforge-os/releases/download/v0.2.0/rootforge-os-android-debug.apk",
+          "sizeBytes": 17306765,
+          "sha256": "faf743faba1b14aa5288f69883a0a1e2c284e43a77d7b32575ea3aaed8045e2f"
+        }
+      ]
+    },
+    {
+      "id": "victorious-keyboard",
+      "name": "Victorious Keyboard",
+      "repo": "Victorious93/Victorious-Keyboard",
+      "applicationId": "com.victorious.keyboard.debug",
+      "versionName": "0.1.0-debug+c4504a26",
+      "versionCode": 137,
+      "minSdk": 26,
+      "debugBuild": true,
+      "buildType": "debug",
+      "releaseTag": "v0.1.0-debug-c4504a26",
+      "releaseNotesUrl": "https://github.com/Victorious93/Victorious-Keyboard/releases/tag/v0.1.0-debug-c4504a26",
+      "publishedAt": "2026-10-20T01:30:51Z",
+      "certSha256": "47:1E:AD:6B:3F:96:7E:F3:C8:63:EF:49:08:74:8B:3B:E3:63:F9:1D:75:0B:FD:B1:E9:28:05:BC:F1:6B:AF:4F",
+      "assets": [
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/Victorious-Keyboard/releases/download/v0.1.0-debug-c4504a26/app-debug.apk",
+          "sizeBytes": 45845327,
+          "sha256": "823f4fd107ee778a0c9cb4fa5310b9fc51008bbbd13d89311d755d67ea829e03"
+        }
+      ]
+    },
+    {
+      "id": "victorsuite",
+      "name": "VictorSuite",
+      "repo": "Victorious93/VictorSuite",
+      "applicationId": "com.termux",
+      "versionName": "0.118.3.54",
+      "versionCode": 117,
+      "minSdk": 23,
+      "debugBuild": false,
+      "buildType": "release",
+      "releaseTag": "v0.118.3.54",
+      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.54",
+      "publishedAt": "2026-10-19T00:26:40Z",
+      "certSha256": "8C:BF:09:AA:5D:0D:24:6B:5A:97:C9:5D:2E:70:DC:0C:5F:5B:D3:33:8C:39:9A:97:88:91:09:A1:0D:CE:19:80",
+      "assets": [
+        {
+          "abi": "arm64-v8a",
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.54/termux-app_apt-android-7-release_arm64-v8a.apk",
+          "sizeBytes": 82873867,
+          "sha256": "9cb2f73857c614cf39f7966d7e067c6b7134223c9b07ee4c21bcbe2ba2124192"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.54/termux-app_apt-android-7-release_armeabi-v7a.apk",
+          "sizeBytes": 77407859,
+          "sha256": "f40bd9f3a1e79f570cbb8d2edd932bee134a95ce44b790c72b633f929a8b1ca8"
+        },
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.54/termux-app_apt-android-7-release_universal.apk",
+          "sizeBytes": 176730324,
+          "sha256": "0f6e1f1d2415098285e3a382f5f4d42085e33d68e3d275be5ab406359dfcb69b"
+        },
+        {
+          "abi": "x86",
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.54/termux-app_apt-android-7-release_x86.apk",
+          "sizeBytes": 80159184,
+          "sha256": "cb425730d708632631ca3a095bb8edaa05be6c5a0499b6fede1eab41b64dd6cc"
+        },
+        {
+          "abi": "x86_64",
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.54/termux-app_apt-android-7-release_x86_64.apk",
+          "sizeBytes": 80708864,
+          "sha256": "0a02c7d1fb6afb2ee28c0430ccfc799c10a448d276570cab517c96423640e776"
+        }
+      ]
+    },
+    {
+      "id": "hackerai-commander",
+      "name": "HackerAI Commander",
+      "repo": "Victorious93/HackerAI-Commander",
+      "applicationId": "ai.hackerai.companion",
+      "versionName": "0.1.0",
+      "versionCode": 100,
+      "minSdk": 26,
+      "debugBuild": false,
+      "buildType": "release",
+      "releaseTag": "v0.1.0",
+      "releaseNotesUrl": "https://github.com/Victorious93/HackerAI-Commander/releases/tag/v0.1.0",
+      "publishedAt": "2026-10-18T01:14:57Z",
+      "certSha256": "9E:A7:B3:14:94:5B:0A:62:97:15:6F:F7:06:E7:0C:0A:B1:B7:24:DE:06:D5:09:9C:A5:12:8A:B4:43:F7:2D:8D",
+      "assets": [
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/HackerAI-Commander/releases/download/v0.1.0/hackerai-companion-v0.1.0.apk",
+          "sizeBytes": 1746119,
+          "sha256": "b0978b0af5ee78f5b512e1e9f778a4b2bad7b9df4beca416d0e98f8bf060f41b"
+        }
+      ]
+    }
+  ]
+}

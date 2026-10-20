@@ -1,0 +1,84 @@
+# Public fleet Android apps polled by update-manifest.yml (Victorious93/fleet-manifest).
+# Private repos (victorsms, victorlaunch, victorspoof) are omitted (paid private Actions /
+# PAT required). VictorLink64 is intentionally not part of this fleet index.
+#
+# pinnedCertSha256: allow-list of colon-hex SHA-256 cert digests clients may trust for
+# that app. Clients MUST accept a fleet-manifest entry only when its certSha256 is
+# non-null AND appears in this list (or the controller pairing table). Empty list =
+# pin unknown / not yet provided — do not invent pins.
+#
+# BOUND_COMPANION apps (HackerAI-Commander, Pentest-Swarm-AI, EDL-Commander) share the
+# fleet release cert. Other apps stay empty until Don provides pins.
+
+apps:
+  - id: droidcommand-ai
+    name: DroidCommand AI
+    repo: Victorious93/droidcommand-AI
+    pinnedCertSha256: []
+    asset_globs: ["*-arm64*.apk", "app-arm64-debug.apk", "app-debug.apk", "*.apk"]
+
+  - id: rootforge-os
+    name: RootForge OS (Android host)
+    repo: Victorious93/rootforge-os
+    pinnedCertSha256: []
+    asset_globs: ["rootforge-os-android-*.apk", "*.apk"]
+
+  - id: victorious-keyboard
+    name: Victorious Keyboard
+    repo: Victorious93/Victorious-Keyboard
+    pinnedCertSha256: []
+    asset_globs: ["*.apk"]
+
+  - id: victorsuite
+    name: VictorSuite
+    repo: Victorious93/VictorSuite
+    pinnedCertSha256: []
+    asset_globs: ["termux-app_*_*.apk", "*.apk"]
+
+  - id: hackerai-commander
+    name: HackerAI Commander
+    repo: Victorious93/HackerAI-Commander
+    # BOUND_COMPANION — fleet release cert
+    pinnedCertSha256: ["9E:A7:B3:14:94:5B:0A:62:97:15:6F:F7:06:E7:0C:0A:B1:B7:24:DE:06:D5:09:9C:A5:12:8A:B4:43:F7:2D:8D"]
+    asset_globs: ["hackerai-companion-*.apk", "*.apk"]
+
+  - id: file-manager
+    name: VictorFiles / File-Manager
+    repo: Victorious93/File-Manager
+    # applicationId today: ai.victorious.victorfiles
+    # After File-Manager PR #23 merges → ai.victorious.filemanager
+    applicationId: ai.victorious.victorfiles
+    pinnedCertSha256: []
+    asset_globs: ["*.apk"]
+
+  - id: edl-commander
+    name: EDL Commander
+    repo: Victorious93/EDL-Commander
+    # BOUND_COMPANION — fleet release cert
+    pinnedCertSha256: ["9E:A7:B3:14:94:5B:0A:62:97:15:6F:F7:06:E7:0C:0A:B1:B7:24:DE:06:D5:09:9C:A5:12:8A:B4:43:F7:2D:8D"]
+    asset_globs: ["*.apk"]
+
+  - id: pentest-swarm-ai
+    name: Pentest Swarm AI
+    repo: Victorious93/Pentest-Swarm-AI
+    # BOUND_COMPANION — fleet release cert
+    pinnedCertSha256: ["9E:A7:B3:14:94:5B:0A:62:97:15:6F:F7:06:E7:0C:0A:B1:B7:24:DE:06:D5:09:9C:A5:12:8A:B4:43:F7:2D:8D"]
+    asset_globs: ["*.apk"]
+
+  - id: kyc-auditlab
+    name: KYC AuditLab
+    repo: Victorious93/KYC-AuditLab
+    pinnedCertSha256: []
+    asset_globs: ["*.apk"]
+
+  - id: victorious-mesh
+    name: Victorious Mesh
+    repo: Victorious93/victorious-mesh
+    pinnedCertSha256: []
+    asset_globs: ["*.apk"]
+
+  - id: victorious-browser
+    name: Victorious Browser
+    repo: Victorious93/victorious-browser
+    pinnedCertSha256: []
+    asset_globs: ["*.apk"]

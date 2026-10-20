@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://victorious93.github.io/fleet-manifest/schema.json",
+  "title": "Victorious Fleet Update Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "apps"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Manifest schema major version."
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC ISO-8601 timestamp when this manifest was generated."
+    },
+    "apps": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/app"
+      }
+    }
+  },
+  "$defs": {
+    "app": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "repo",
+        "applicationId",
+        "versionName",
+        "versionCode",
+        "debugBuild",
+        "releaseTag",
+        "releaseNotesUrl",
+        "publishedAt",
+        "certSha256",
+        "assets"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Stable short id (slug)."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repo": {
+          "type": "string",
+          "pattern": "^Victorious93/[A-Za-z0-9._-]+$",
+          "description": "owner/repo"
+        },
+        "applicationId": {
+          "type": "string",
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_]*(\\.[a-zA-Z][a-zA-Z0-9_]*)+$"
+        },
+        "versionName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "versionCode": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minSdk": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "debugBuild": {
+          "type": "boolean",
+          "description": "True when the APK is a debug build (aapt2 application-debuggable, or tag/asset name contains 'debug')."
+        },
+        "buildType": {
+          "type": "string",
+          "enum": [
+            "debug",
+            "release"
+          ],
+          "description": "Optional explicit build type; prefer deriving from aapt2 / asset naming."
+        },
+        "releaseTag": {
+          "type": "string",
+          "minLength": 1
+        },
+        "releaseNotesUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publishedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "certSha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Signer certificate SHA-256 (colon-hex, uppercase) of the published APK, or null when not yet computed. Clients MUST trust an entry only when this value is non-null and matches that app's pinnedCertSha256 allow-list from apps.yml (or the controller pairing table). Do not trust on package name alone.",
+          "pattern": "^([0-9A-F]{2}:){31}[0-9A-F]{2}$"
+        },
+        "assets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "abi",
+        "url",
+        "sizeBytes",
+        "sha256"
+      ],
+      "properties": {
+        "abi": {
+          "type": "string",
+          "enum": [
+            "universal",
+            "arm64-v8a",
+            "armeabi-v7a",
+            "x86_64",
+            "x86"
+          ],
+          "description": "x86 for VictorSuite splits; prefer arm64-v8a / universal for phones."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "Lowercase hex SHA-256 of the APK bytes."
+        }
+      }
+    }
+  }
+}

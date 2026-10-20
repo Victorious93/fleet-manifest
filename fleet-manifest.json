@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T03:30:09Z",
+  "generatedAt": "2026-10-20T11:35:41Z",
   "apps": [
     {
       "id": "droidcommand-ai",
@@ -57,20 +57,20 @@
       "name": "Victorious Keyboard",
       "repo": "Victorious93/Victorious-Keyboard",
       "applicationId": "com.victorious.keyboard.debug",
-      "versionName": "0.1.0-debug+e94f71ee",
-      "versionCode": 139,
+      "versionName": "0.1.0-debug+fbace13b",
+      "versionCode": 142,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.0-debug-e94f71ee",
-      "releaseNotesUrl": "https://github.com/Victorious93/Victorious-Keyboard/releases/tag/v0.1.0-debug-e94f71ee",
-      "publishedAt": "2026-10-20T02:18:07Z",
+      "releaseTag": "v0.1.0-debug-fbace13b",
+      "releaseNotesUrl": "https://github.com/Victorious93/Victorious-Keyboard/releases/tag/v0.1.0-debug-fbace13b",
+      "publishedAt": "2026-10-20T03:51:23Z",
       "certSha256": "47:1E:AD:6B:3F:96:7E:F3:C8:63:EF:49:08:74:8B:3B:E3:63:F9:1D:75:0B:FD:B1:E9:28:05:BC:F1:6B:AF:4F",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/Victorious-Keyboard/releases/download/v0.1.0-debug-e94f71ee/app-debug.apk",
-          "sizeBytes": 45897400,
-          "sha256": "aa7fc964047b424dfce5bd7d2b2dc5c2055d593bda011660b75a7768c79a9f34"
+          "url": "https://github.com/Victorious93/Victorious-Keyboard/releases/download/v0.1.0-debug-fbace13b/victorious-keyboard-debug-fbace13b.apk",
+          "sizeBytes": 45899228,
+          "sha256": "7c8aa088fc5c2879c965b79c6e97616ac182c7f7c79664775dadc7ed88a8a113"
         }
       ]
     },

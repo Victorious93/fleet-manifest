@@ -1,4 +1,28 @@
-# Victorious fleet update manifest
+<!-- victorious-fleet-readme-refresh:start -->
+<p align="center">
+  <img src="assets/logo.jpg" alt="fleet-manifest logo" width="200">
+</p>
+
+# fleet-manifest
+
+Fleet APK update feed and status/planning docs for the Victorious fleet.
+
+**Package id:** `n/a (manifest)`
+
+**Status:** CI green (docs/feed) *(from [fleet-manifest ROADMAP](https://github.com/Victorious93/fleet-manifest/blob/main/ROADMAP.md))*
+
+## Install / build
+
+No app build. Authoritative feed: `fleet-manifest.json`; status: `ROADMAP.md`.
+
+_Steps above are taken from this repo’s build files / existing docs; anything not exercised in this refresh is unlabeled as verified on a device._
+
+## Victorious fleet
+
+- Monorepo: [https://github.com/Victorious93/victorious-fleet](https://github.com/Victorious93/victorious-fleet)
+- Fleet site: [https://victorious-framework.pages.dev](https://victorious-framework.pages.dev)
+
+<!-- victorious-fleet-readme-refresh:end -->
 
 Public index of the latest Android APKs across Don’s Victorious fleet apps: versions, download URLs, content SHA-256, signer cert, and debug/release flags.
 

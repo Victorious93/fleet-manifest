@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T11:27:24Z",
+  "generatedAt": "2026-10-26T13:01:27Z",
   "apps": [
     {
       "id": "droidcommand-ai",
@@ -11,16 +11,16 @@
       "versionCode": 1,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.0-phase0.1",
-      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.0-phase0.1",
-      "publishedAt": "2026-10-24T22:04:01Z",
+      "releaseTag": "v0.1.0-phase0.2",
+      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.0-phase0.2",
+      "publishedAt": "2026-10-25T19:35:54Z",
       "certSha256": "88:00:51:A6:D9:5D:38:DD:8D:81:E1:93:1E:17:05:48:03:87:D5:93:C3:09:43:53:99:68:E6:EF:11:A0:C8:4D",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.0-phase0.1/app-debug.apk",
+          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.0-phase0.2/app-debug.apk",
           "sizeBytes": 395741506,
-          "sha256": "830eb67fd5416943fd0ebc39018975606887df22a6767410db2fe742bed51c00"
+          "sha256": "48a0b7f6b0e2e42b961261d8c215c7866e8cd4e55f28262f53511d3410695ece"
         }
       ]
     },
@@ -141,20 +141,20 @@
       "name": "VictorFiles / File-Manager",
       "repo": "Victorious93/File-Manager",
       "applicationId": "ai.victorious.filemanager.debug",
-      "versionName": "0.1.0-debug",
-      "versionCode": 1,
+      "versionName": "0.1.1-debug",
+      "versionCode": 2,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.0",
-      "releaseNotesUrl": "https://github.com/Victorious93/File-Manager/releases/tag/v0.1.0",
-      "publishedAt": "2026-10-25T02:06:39Z",
+      "releaseTag": "v0.1.1",
+      "releaseNotesUrl": "https://github.com/Victorious93/File-Manager/releases/tag/v0.1.1",
+      "publishedAt": "2026-10-25T19:37:28Z",
       "certSha256": "8C:1F:E3:C9:E5:34:F2:71:05:C0:68:8F:45:28:D7:7E:47:11:AE:0A:79:DD:08:D1:E8:59:30:B9:E9:48:85:F2",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/File-Manager/releases/download/v0.1.0/VictorFiles-v0.1.0-debug.apk",
-          "sizeBytes": 39882808,
-          "sha256": "3c8eb7ca6ff9fd358e076c7619d640373eec24203cd68137c1347eeeeb28b000"
+          "url": "https://github.com/Victorious93/File-Manager/releases/download/v0.1.1/VictorFiles-v0.1.1-debug.apk",
+          "sizeBytes": 39882804,
+          "sha256": "6322bc1a0d901ae30619139ff78627ed71d51b8ba880b0e9caf0a84c2b2a7624"
         }
       ]
     }

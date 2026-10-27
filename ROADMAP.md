@@ -1,6 +1,6 @@
 # Victorious Fleet — APK / Status Roadmap
 
-**As of:** October 20, 2026 (America/New_York)  
+**As of:** October 27, 2026 (America/New_York)  
 **Owner:** Fleet Orchestrator (status docs for this repo)  
 **Audience:** Claude Code, Cursor bots, and any agent reading the fleet
 
@@ -20,8 +20,8 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 |------|--------|
 | Monorepo | [victorious-fleet](https://github.com/Victorious93/victorious-fleet) LIVE — 23 submodules + VictorCam stub. Clone `--recurse-submodules`. |
 | GitHub Actions billing | **STILL ACTIVE** (confirmed in the Oct 20 morning health check) — private-repo CI fails. Workaround: make the repo public. Only Don can clear it under Billing & plans. |
-| File-Manager | Stacked CI being fixed from **#26** up — 3 distinct errors: (1) lint `StateFlow.value` read in composition, (2) emulator test App Manager filter, (3) FFmpeg `avconfig.h` missing. |
-| README refresh | GitHub bot is opening README-refresh PRs across ~23 app repos + the profile README, with per-repo logos. |
+| File-Manager | Stacked CI from #26 **RESOLVED** (Oct 25–26). Rename to `ai.victorious.filemanager` landed. Claude rewrote README. |
+| README refresh | Oct 20 refresh largely merged. Oct 27 sync: profile + monorepo + ROADMAP + VictorMango/VictorTaskbar + VictorSMS feature README. |
 | Merge policy | Auto-merge when CI green + clean (Don, Oct 18, 2026). |
 | Secrets | Never commit release signing keys or plaintext signing passwords. Debug keystores are OK. |
 | Remote auth | Package id + debug/release cert only. |
@@ -64,16 +64,18 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 | App | Package | Repo | Status | Next concrete action | Known blockers |
 |-----|---------|------|--------|----------------------|----------------|
 | rootforge-os | `ai.rootforge.os` | [Victorious93/rootforge-os](https://github.com/Victorious93/rootforge-os) (public) | CI green | First live link from controller (Don phone test). P1 first target. | None. #82 `node.status.get` + #83 config backup MERGED. |
-| File-Manager | `ai.victorious.filemanager` (target; repo may still say `ai.victorious.victorfiles`) | [Victorious93/File-Manager](https://github.com/Victorious93/File-Manager) (private) | blocked (stacked CI) | Fix lint / emulator / FFmpeg stack from #26 up; finish rename to `ai.victorious.filemanager`; pin on DCA | PR **#26 OPEN** stacked on #25→#23. 3 errors: lint `StateFlow.value` in composition; emulator App Manager filter; FFmpeg `avconfig.h`. Private repo — billing block also applies. |
+| File-Manager | `ai.victorious.filemanager` (rename **LANDED** — confirmed in `app/build.gradle.kts`) | [Victorious93/File-Manager](https://github.com/Victorious93/File-Manager) (private) | CI green (stacked PRs merged) | Pin cert on DCA; device test | **Updated Oct 27:** stacked CI PRs (#23/#25/#26) merged; Claude rewrote the README Oct 25 and fixed split-size/paste/copy bugs through #46. No open PRs. Private repo — Actions billing block may still apply. |
 | Victorious-Keyboard | `com.victorious.keyboard` | [Victorious93/Victorious-Keyboard](https://github.com/Victorious93/Victorious-Keyboard) | CI green / merging | Finish remaining media+FM PRs; package rename from florisboard namespace | MANUAL #50 / envelope+status+backup #55 / media+FM-seek #54 on auto-merging path. |
 | Victorious Flash / Distro Installer | `com.victorious.flash.android` (desktop) | [Victorious93/Victorious-Flash](https://github.com/Victorious93/Victorious-Flash) (or victorious-flash) | CI green (desktop) | Device/desktop live bridge test | None. FLEET_BRIDGE #18 MERGED; catalogued on DCA as 12th member. |
 | Victorious Mesh | `com.victorious.mesh` | [Victorious93/Victorious-Mesh](https://github.com/Victorious93/Victorious-Mesh) | CI green | Live mesh with Browser READ edge (`mesh.status` + `mesh.ip` only) | None. #9 status + #10 UNIFIED_BACKUP MERGED. |
 | Victorious Browser | `com.victorious.browser` | [Victorious93/Victorious-Browser](https://github.com/Victorious93/Victorious-Browser) | CI green | Live `mesh.status` / `mesh.ip` path | None. Bridge #24 MERGED; sanctioned node→node READ consumer of Mesh. |
-| VictorSMS | `com.victorious.sms` | [Victorious93/VictorSMS](https://github.com/Victorious93/VictorSMS) (or victorsms) | scaffold / blocked | Land #1; relay debug cert if not yet pinned | PR **#1 OPEN** (compileSdk 37 fix in progress). |
+| VictorSMS | `com.victorious.sms` | [Victorious93/victorsms](https://github.com/Victorious93/victorsms) (**now PUBLIC**) | CI green / feature-rich scaffold (not device-tested) | Pin debug cert on DCA; Don device test | **Updated Oct 27:** PRs #1–#12 MERGED. Code has Matrix shell, native SMS + unified inbox, phone dialer (`ROLE_DIALER` + InCallService), spam call/text blocking, Twilio alias number (SIP stub), persona drafter + voice notes (PC LLM/TTS over mesh), summarizer/triage + DCA fleet-command bot, SMS remote-command trigger (forward-only, never executes), ABI splits + phone-to-phone relay, fleet bridge. README still under-describes this — sync PR opening. |
 | VictorLaunch | `com.victorious.launch` | [Victorious93/VictorLaunch](https://github.com/Victorious93/VictorLaunch) | CI green | Public repo finalize; Don install | NEW cert `B9:9A:AF:…:4A:69` enforced on DCA #243; old `1B:06` revoked. #2 + #6 (debug key rotation) MERGED; going public. Full-control exception already Don-approved. |
 | VictorSpoof | `com.victorious.spoof` | [Victorious93/victorspoof](https://github.com/Victorious93/victorspoof) | scaffold | Merge #1; `config.export`/`import` follow-up; release cert TBD | PR **#1 OPEN** (billing block still active for private repos — recheck CI). Debug cert `A4:84:…:FF:EE`. |
 | VictorLink64 | `org.victoriousframework.victorlink64` | [Victorious93/VictorLink64](https://github.com/Victorious93/VictorLink64) | early beta / public | Product work (not fleet bridge) | **NOT_IN_FLEET_REMOTE** — game emulator; not remote-control fleet. |
 | VictorCam | `com.victorious.cam` | [Victorious93/victorcam](https://github.com/Victorious93/victorcam) (public; was empty, scaffold pushing) | scaffold | Land scaffold on main; then swap the monorepo stub for a real submodule in victorious-fleet; onboard EXTERNAL_NODE standards + debug cert | Logo `victorcam-logo.jpg` exists in fleet-logos. OBS-style virtual cam. |
+| VictorMango | `com.victorious.mango` | [Victorious93/victormango](https://github.com/Victorious93/victormango) (public) | scaffold | Implement stubbed router features (Wi-Fi/VPN/AdGuard/Tether/Firmware); add to monorepo as submodule | **NEW (Oct 27 sync):** Android companion for GL.iNet **Mango (GL-MT300N-V2)** / OpenWrt travel routers. GL.iNet 4.x `/rpc` auth is real; feature calls are stubbed. Debug keystore committed (OK). Not yet in `apps.yml` feed until it ships an APK. |
+| VictorTaskbar | `com.victorious.taskbar` | [Victorious93/victortaskbar](https://github.com/Victorious93/victortaskbar) (public) | planning (repo just created) | Scaffold the app; onboard fleet standards | **NEW (Oct 27 sync):** desktop-style taskbar for Android. README-only initial commit so far — no app build yet. |
 
 ---
 
@@ -109,7 +111,7 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 
 | App | Package | Repo | Connection | Status | Next concrete action | Known blockers |
 |-----|---------|------|------------|--------|----------------------|----------------|
-| VictorOps Zombies | `com.victorious.zombie` | [Victorious93/victorops-zombies](https://github.com/Victorious93/victorops-zombies) (private submodule → going **PUBLIC**, Don approved) | NOT_IN_FLEET_REMOTE (game; libGDX+Kotlin) | scaffold | Scrub/rotate hardcoded signing passwords from history (if not done) → flip public → green CI → merge #1 | PR **#1 OPEN** — 21/21 local tests pass (not device-tested). targetSdk 35 / minSdk 24, v2/v3 signing, arm64-v8a + armeabi-v7a. GitHub flagged committed `debug.keystore` + hardcoded signing passwords in history: debug keystore is OK per fleet rules; plaintext passwords are **not** and must be scrubbed/rotated. |
+| VictorOps Zombies | `com.victorious.zombie` | [Victorious93/victorops-zombies](https://github.com/Victorious93/victorops-zombies) (**now PUBLIC**) | NOT_IN_FLEET_REMOTE (game; libGDX+Kotlin) | scaffold (playable slice) | Device test; keep in sync with VictorLink64 built-in version | **Updated Oct 27:** repo is public; scaffold PRs #1–#4 merged (characters, tiered gun upgrades, armor/ammo, TCP hardening + Fortify cooldown fix). Also shipped as a built-in game inside VictorLink64. targetSdk 35 / minSdk 24. |
 
 ---
 
@@ -119,7 +121,7 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 |------------------|---------|
 | CONTROLLER | droidcommand-AI |
 | BOUND_COMPANION | HackerAI-Commander, Pentest-Swarm-AI, EDL-Commander |
-| EXTERNAL_NODE | rootforge-os, File-Manager, Victorious-Keyboard, Victorious Flash, Victorious Mesh, Victorious Browser, VictorSMS, VictorLaunch, VictorSpoof, VictorCam |
+| EXTERNAL_NODE | rootforge-os, File-Manager, Victorious-Keyboard, Victorious Flash, Victorious Mesh, Victorious Browser, VictorSMS, VictorLaunch, VictorSpoof, VictorCam, VictorMango, VictorTaskbar (planning) |
 | NOT_IN_FLEET_REMOTE | VictorLink64, VictorOps Zombies |
 | TERMUX_IPC | VictorSuite |
 | HOST_PROCESS_TOOL | BakerPi-Installer |
@@ -129,4 +131,4 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 
 ---
 
-*Generated for Fleet Orchestrator · Oct 20, 2026 · Do not merge release keys. Don phone reports gate LIVE.*
+*Generated for Fleet Orchestrator · Oct 20, 2026 · README/status sync Oct 27, 2026 · Do not merge release keys. Don phone reports gate LIVE.*

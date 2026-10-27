@@ -65,12 +65,11 @@ Optional: `minSdk`, `buildType` (`debug` | `release`).
 - Uses `GITHUB_TOKEN` with `permissions: contents: write`
 - For each public app in `apps.yml`: Releases API → download APKs → asset digest or `sha256sum` → `aapt2 dump badging` → `apksigner verify --print-certs` → validate → commit if changed
 
-Private apps (`victorsms`, `victorlaunch`, `victorspoof`) are not covered ($0 public Actions only).
+Private apps (VictoryPed, victormodem, etc.) are not covered ($0 public Actions only). victorsms / victorlaunch / victorspoof are now PUBLIC and can be added to apps.yml when desired.
 
 ## File-Manager applicationId
 
-Current Gradle / pairing id: **`ai.victorious.victorfiles`**.  
-After [File-Manager PR #23](https://github.com/Victorious93/File-Manager/pull/23) merges, it becomes **`ai.victorious.filemanager`**. Update `apps.yml` / clients when that lands.
+Current Gradle / pairing id: **`ai.victorious.filemanager`** (rename from `ai.victorious.victorfiles` **landed** — [PR #23](https://github.com/Victorious93/File-Manager/pull/23) merged; confirmed in `app/build.gradle.kts`). `apps.yml` reflects the new id.
 
 ## Out of scope
 

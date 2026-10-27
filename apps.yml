@@ -2,7 +2,7 @@
 # Private apps (VictoryPed, victormodem, Ebook-Of-Secrets, Wordpress-Client-Pages) need a PAT
 # to poll. victorsms / victorlaunch / victorspoof are now PUBLIC and can be added when desired.
 # VictorLink64 is intentionally not part of this fleet index.
-# victortaskbar is README-only scaffold — omit until it ships an APK.
+# victortaskbar / victortrade have no APK releases yet — omit until they ship one.
 #
 # pinnedCertSha256: allow-list of colon-hex SHA-256 cert digests clients may trust for
 # that app. Clients MUST accept a fleet-manifest entry only when its certSha256 is
@@ -92,4 +92,5 @@ apps:
     pinnedCertSha256: []
     asset_globs: ["*.apk"]
 
-  # victortaskbar (com.victorious.taskbar) exists but is README-only scaffold (no app build yet) — not polled until it ships an APK.
+  # victortaskbar (com.victorious.taskbar) has an MVP scaffold + logo on main but no APK release yet — not polled until it ships an APK.
+  # victortrade (com.victorious.trade) is PRIVATE and initial-commit only — not polled (needs PAT + APK release).

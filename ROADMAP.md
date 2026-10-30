@@ -75,7 +75,8 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 | VictorLink64 | `org.victoriousframework.victorlink64` | [Victorious93/VictorLink64](https://github.com/Victorious93/VictorLink64) | early beta / public | Product work (not fleet bridge) | **NOT_IN_FLEET_REMOTE** — game emulator; not remote-control fleet. |
 | VictorCam | `com.victorious.cam` | [Victorious93/victorcam](https://github.com/Victorious93/victorcam) (public; was empty, scaffold pushing) | scaffold | Land scaffold on main; then swap the monorepo stub for a real submodule in victorious-fleet; onboard EXTERNAL_NODE standards + debug cert | Logo `victorcam-logo.jpg` exists in fleet-logos. OBS-style virtual cam. |
 | VictorMango | `com.victorious.mango` | [Victorious93/victormango](https://github.com/Victorious93/victormango) (public) | scaffold | Implement stubbed router features (Wi-Fi/VPN/AdGuard/Tether/Firmware); add to monorepo as submodule | **NEW (Oct 27 sync):** Android companion for GL.iNet **Mango (GL-MT300N-V2)** / OpenWrt travel routers. GL.iNet 4.x `/rpc` auth is real; feature calls are stubbed. Debug keystore committed (OK). Not yet in `apps.yml` feed until it ships an APK. |
-| VictorTaskbar | `com.victorious.taskbar` | [Victorious93/victortaskbar](https://github.com/Victorious93/victortaskbar) (public) | planning (repo just created) | Scaffold the app; onboard fleet standards | **NEW (Oct 27 sync):** desktop-style taskbar for Android. README-only initial commit so far — no app build yet. |
+| VictorTaskbar | `com.victorious.taskbar` | [Victorious93/victortaskbar](https://github.com/Victorious93/victortaskbar) (public) | MVP scaffold with official logo | Pin debug cert on DCA; add to `apps.yml` once it ships an APK release | **Updated Oct 27:** desktop-style taskbar for Android. MVP scaffold (#1) + official logo/launcher icons (#3) MERGED on main. |
+| VictorTrade | `com.victorious.trade` | [Victorious93/victortrade](https://github.com/Victorious93/victortrade) (**private**) | scaffold (initial commit) | Scaffold APK + debug cert for DCA pin | **NEW (Oct 27):** crypto-bots hub (exchange APIs + self-hosted + on-chain). Connection class TBD (likely EXTERNAL_NODE until ratified). Private — not in `apps.yml` poller. |
 
 ---
 
@@ -121,7 +122,7 @@ git clone --recurse-submodules https://github.com/Victorious93/victorious-fleet.
 |------------------|---------|
 | CONTROLLER | droidcommand-AI |
 | BOUND_COMPANION | HackerAI-Commander, Pentest-Swarm-AI, EDL-Commander |
-| EXTERNAL_NODE | rootforge-os, File-Manager, Victorious-Keyboard, Victorious Flash, Victorious Mesh, Victorious Browser, VictorSMS, VictorLaunch, VictorSpoof, VictorCam, VictorMango, VictorTaskbar (planning) |
+| EXTERNAL_NODE | rootforge-os, File-Manager, Victorious-Keyboard, Victorious Flash, Victorious Mesh, Victorious Browser, VictorSMS, VictorLaunch, VictorSpoof, VictorCam, VictorMango, VictorTaskbar, VictorTrade (TBD — likely) |
 | NOT_IN_FLEET_REMOTE | VictorLink64, VictorOps Zombies |
 | TERMUX_IPC | VictorSuite |
 | HOST_PROCESS_TOOL | BakerPi-Installer |

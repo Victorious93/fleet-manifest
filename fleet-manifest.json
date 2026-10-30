@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T12:53:47Z",
+  "generatedAt": "2026-10-30T12:54:37Z",
   "apps": [
     {
       "id": "droidcommand-ai",
@@ -73,44 +73,44 @@
       "name": "VictorSuite",
       "repo": "Victorious93/VictorSuite",
       "applicationId": "com.termux",
-      "versionName": "0.118.3.56",
-      "versionCode": 119,
+      "versionName": "0.118.3.57",
+      "versionCode": 120,
       "debugBuild": false,
       "buildType": "release",
-      "releaseTag": "v0.118.3.56",
-      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.56",
-      "publishedAt": "2026-10-28T08:21:03Z",
+      "releaseTag": "v0.118.3.57",
+      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.57",
+      "publishedAt": "2026-10-29T21:01:01Z",
       "certSha256": "8C:BF:09:AA:5D:0D:24:6B:5A:97:C9:5D:2E:70:DC:0C:5F:5B:D3:33:8C:39:9A:97:88:91:09:A1:0D:CE:19:80",
       "assets": [
         {
           "abi": "arm64-v8a",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.56/termux-app_apt-android-7-release_arm64-v8a.apk",
-          "sizeBytes": 83492950,
-          "sha256": "bd6dcae2e79c09c87b65dfd43afe77c2deed7a93e9648a0c10f075bd04f2a9a6"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_arm64-v8a.apk",
+          "sizeBytes": 83497931,
+          "sha256": "260e24775a273cb4c25ecfca29533bb0e835c7ef151f6135860a6f8b9e0f19ea"
         },
         {
           "abi": "armeabi-v7a",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.56/termux-app_apt-android-7-release_armeabi-v7a.apk",
-          "sizeBytes": 78026939,
-          "sha256": "d36765fb7a6ec08219bea5f1b658f8145a0310a7886c62e4b2c825ff1cf3a09d"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_armeabi-v7a.apk",
+          "sizeBytes": 78031922,
+          "sha256": "98091efe1a64033ed8a1f8646f52a5e78c91382f7aa6672bdd74cff3e7c4bede"
         },
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.56/termux-app_apt-android-7-release_universal.apk",
-          "sizeBytes": 177349336,
-          "sha256": "ed7dbe87a67b9fc57a0d59a33fdf1534916b876996af5ab5bb31cabb3e304b5a"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_universal.apk",
+          "sizeBytes": 177354308,
+          "sha256": "8d852cf5d7871f2128f42027a6fec36553c50aa7a65d88740579fadaf9c58cc1"
         },
         {
           "abi": "x86",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.56/termux-app_apt-android-7-release_x86.apk",
-          "sizeBytes": 80778291,
-          "sha256": "4b6bdf034ca8eb85d6ee871c96afe9291e28ecd71ac42aee58e17cb8f512d35b"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_x86.apk",
+          "sizeBytes": 80783271,
+          "sha256": "7f322b10ecdd265624fd30de39f734c5ad29a62ffa2b3f7c36ee67c4fc3ddf7b"
         },
         {
           "abi": "x86_64",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.56/termux-app_apt-android-7-release_x86_64.apk",
-          "sizeBytes": 81327936,
-          "sha256": "514fe9d1d092b9e21073555e96ce485ae66aab9863ec467a302f9ea3d70292dd"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_x86_64.apk",
+          "sizeBytes": 81332921,
+          "sha256": "936feadda58190989bed104a4b6fc97203826988e0a89ff4d9155d657e95a372"
         }
       ]
     },

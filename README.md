@@ -1,3 +1,5 @@
+<p align="center"><a href="https://victorious93.github.io/fleet-manifest/"><strong>Home</strong></a> | <a href="https://victorious93.github.io/fleet-manifest/shop/"><strong>Shop</strong></a></p>
+
 <!-- victorious-fleet-readme-refresh:start -->
 <p align="center">
   <img src="assets/logo.jpg" alt="fleet-manifest logo" width="200">

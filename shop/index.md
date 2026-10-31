@@ -12,11 +12,23 @@ body{background:#0B0F1A;color:#e6e8ef}.sv{background:#0B0F1A;color:#e6e8ef;font-
 .sv-price{color:#FF2BD6;font-size:1.3rem;font-weight:700}.sv-sizes{font-size:.9rem;opacity:.85}
 .sv-buy{display:inline-block;margin-top:.75rem;padding:.6rem 1.2rem;border:2px solid #FF2BD6;color:#FF2BD6;border-radius:8px;text-decoration:none;font-weight:700}
 .sv-buy:hover{background:#FF2BD6;color:#0B0F1A}.sv-note{opacity:.7;font-size:.85rem}
+.sv-nav{text-align:center;margin-bottom:1rem}.sv-nav a{color:#00E5FF;text-decoration:none;font-weight:700;margin:0 .5rem}
+.sv-stores{display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0 1.5rem}
+.sv-store{flex:1 1 260px;text-align:center;padding:1rem 1.5rem;border:2px solid #00E5FF;border-radius:12px;color:#00E5FF;background:#111729;text-decoration:none;font-weight:800;font-size:1.15rem;box-shadow:0 0 16px rgba(0,229,255,.45)}
+.sv-store.m{border-color:#FF2BD6;color:#FF2BD6;box-shadow:0 0 16px rgba(255,43,214,.45)}
+.sv-store small{display:block;font-weight:400;opacity:.75;font-size:.85rem}
 </style>
 
 <div class="sv">
+<nav class="sv-nav"><a href="{{ site.baseurl }}/">Home</a> | <a href="{{ site.baseurl }}/shop/">Shop</a></nav>
 <h1>ShopVictorious</h1>
 <p>Victorious Apparel. Buy links coming soon.</p>
+<div class="sv-stores">
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-store" href="#" aria-disabled="true">VictoriousPed Bully Store<small>Coming soon</small></a>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-store m" href="#" aria-disabled="true">Victorious Framework Hardware Store<small>Coming soon</small></a>
+</div>
 <h2>Crown V collection (Logo A)</h2>
 <div class="sv-grid">
 <div class="sv-card">

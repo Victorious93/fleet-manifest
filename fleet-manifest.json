@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T12:54:37Z",
+  "generatedAt": "2026-10-31T12:27:35Z",
   "apps": [
     {
       "id": "droidcommand-ai",
@@ -11,16 +11,16 @@
       "versionCode": 1,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.0-phase0.2",
-      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.0-phase0.2",
-      "publishedAt": "2026-10-25T19:35:54Z",
+      "releaseTag": "v0.1.3",
+      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.3",
+      "publishedAt": "2026-10-31T08:14:06Z",
       "certSha256": "88:00:51:A6:D9:5D:38:DD:8D:81:E1:93:1E:17:05:48:03:87:D5:93:C3:09:43:53:99:68:E6:EF:11:A0:C8:4D",
       "assets": [
         {
-          "abi": "universal",
-          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.0-phase0.2/app-debug.apk",
-          "sizeBytes": 395741506,
-          "sha256": "48a0b7f6b0e2e42b961261d8c215c7866e8cd4e55f28262f53511d3410695ece"
+          "abi": "arm64-v8a",
+          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.3/app-arm64-debug.apk",
+          "sizeBytes": 214762934,
+          "sha256": "656c0e8fc97be006733ba061fe497c47b0cca62da70dbc02215ce5a4203b100b"
         }
       ]
     },
@@ -33,16 +33,16 @@
       "versionCode": 2,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.3.0",
-      "releaseNotesUrl": "https://github.com/Victorious93/rootforge-os/releases/tag/v0.3.0",
-      "publishedAt": "2026-10-24T21:08:02Z",
+      "releaseTag": "v0.3.1",
+      "releaseNotesUrl": "https://github.com/Victorious93/rootforge-os/releases/tag/v0.3.1",
+      "publishedAt": "2026-10-31T03:09:32Z",
       "certSha256": "77:7A:C7:00:87:05:A8:B4:B8:93:AC:EF:0E:03:E9:1C:7F:49:52:C9:52:FE:B2:6E:06:D7:90:B9:14:86:64:6F",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/rootforge-os/releases/download/v0.3.0/rootforge-os-android-debug.apk",
-          "sizeBytes": 18928585,
-          "sha256": "38b5b89549715b5864b902f52b7431d5f676d8c0b98170fecd52f282ddfc14f5"
+          "url": "https://github.com/Victorious93/rootforge-os/releases/download/v0.3.1/rootforge-os-android-debug.apk",
+          "sizeBytes": 18962457,
+          "sha256": "ff6993f3b050af309196c9f9bed3911a83f32e36725c2d648b42bde99392b2ca"
         }
       ]
     },
@@ -51,20 +51,20 @@
       "name": "Victorious Keyboard",
       "repo": "Victorious93/Victorious-Keyboard",
       "applicationId": "com.victorious.keyboard.debug",
-      "versionName": "0.1.0-debug+0609796c",
+      "versionName": "0.1.0-debug+40ff976",
       "versionCode": 151,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "debug-latest",
-      "releaseNotesUrl": "https://github.com/Victorious93/Victorious-Keyboard/releases/tag/debug-latest",
-      "publishedAt": "2026-10-27T22:28:02Z",
+      "releaseTag": "v0.1.0-debug-40ff9765",
+      "releaseNotesUrl": "https://github.com/Victorious93/Victorious-Keyboard/releases/tag/v0.1.0-debug-40ff9765",
+      "publishedAt": "2026-10-31T03:07:43Z",
       "certSha256": "47:1E:AD:6B:3F:96:7E:F3:C8:63:EF:49:08:74:8B:3B:E3:63:F9:1D:75:0B:FD:B1:E9:28:05:BC:F1:6B:AF:4F",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/Victorious-Keyboard/releases/download/debug-latest/app-debug.apk",
-          "sizeBytes": 46367811,
-          "sha256": "173279012bed908b71f6b4f4a5e5e7a63bcb9043d4ace7abc6d4702e4ecb1a1c"
+          "url": "https://github.com/Victorious93/Victorious-Keyboard/releases/download/v0.1.0-debug-40ff9765/app-debug.apk",
+          "sizeBytes": 46391287,
+          "sha256": "796b764af7e94c82213b1bbef10a4d7634c65fcf54148be16488369000a1363e"
         }
       ]
     },
@@ -73,44 +73,44 @@
       "name": "VictorSuite",
       "repo": "Victorious93/VictorSuite",
       "applicationId": "com.termux",
-      "versionName": "0.118.3.57",
-      "versionCode": 120,
+      "versionName": "0.118.3.59",
+      "versionCode": 121,
       "debugBuild": false,
       "buildType": "release",
-      "releaseTag": "v0.118.3.57",
-      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.57",
-      "publishedAt": "2026-10-29T21:01:01Z",
+      "releaseTag": "v0.118.3.59",
+      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.59",
+      "publishedAt": "2026-10-31T04:57:52Z",
       "certSha256": "8C:BF:09:AA:5D:0D:24:6B:5A:97:C9:5D:2E:70:DC:0C:5F:5B:D3:33:8C:39:9A:97:88:91:09:A1:0D:CE:19:80",
       "assets": [
         {
           "abi": "arm64-v8a",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_arm64-v8a.apk",
-          "sizeBytes": 83497931,
-          "sha256": "260e24775a273cb4c25ecfca29533bb0e835c7ef151f6135860a6f8b9e0f19ea"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_arm64-v8a.apk",
+          "sizeBytes": 83489132,
+          "sha256": "21d15215e0fb99c216a96d2f36c4f044bfdba13c37d65d9edbb84779b0fd71e1"
         },
         {
           "abi": "armeabi-v7a",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_armeabi-v7a.apk",
-          "sizeBytes": 78031922,
-          "sha256": "98091efe1a64033ed8a1f8646f52a5e78c91382f7aa6672bdd74cff3e7c4bede"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_armeabi-v7a.apk",
+          "sizeBytes": 78023122,
+          "sha256": "1c0a1f7ac31ab41db7c1c5a7ba61b34f736154c8c687546e72994a1d3be47746"
         },
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_universal.apk",
-          "sizeBytes": 177354308,
-          "sha256": "8d852cf5d7871f2128f42027a6fec36553c50aa7a65d88740579fadaf9c58cc1"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_universal.apk",
+          "sizeBytes": 177345511,
+          "sha256": "90e8a7a3785ab3bd6b66a0747dbb3102d368e50dc9f474eca625737634bf34af"
         },
         {
           "abi": "x86",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_x86.apk",
-          "sizeBytes": 80783271,
-          "sha256": "7f322b10ecdd265624fd30de39f734c5ad29a62ffa2b3f7c36ee67c4fc3ddf7b"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_x86.apk",
+          "sizeBytes": 80774484,
+          "sha256": "52c241a8c9724bc1cedf173cf157aef0c459bb9ba2c79e8cadaaa1717eef2582"
         },
         {
           "abi": "x86_64",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.57/termux-app_apt-android-7-release_x86_64.apk",
-          "sizeBytes": 81332921,
-          "sha256": "936feadda58190989bed104a4b6fc97203826988e0a89ff4d9155d657e95a372"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_x86_64.apk",
+          "sizeBytes": 81324133,
+          "sha256": "4834337f99beae7f4473f00d5e5eff3b510206b7ed36d13d8cddb4800ce1cd57"
         }
       ]
     },
@@ -145,16 +145,82 @@
       "versionCode": 2,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.1",
-      "releaseNotesUrl": "https://github.com/Victorious93/File-Manager/releases/tag/v0.1.1",
-      "publishedAt": "2026-10-25T19:37:28Z",
+      "releaseTag": "v0.1.2",
+      "releaseNotesUrl": "https://github.com/Victorious93/File-Manager/releases/tag/v0.1.2",
+      "publishedAt": "2026-10-31T03:07:12Z",
       "certSha256": "8C:1F:E3:C9:E5:34:F2:71:05:C0:68:8F:45:28:D7:7E:47:11:AE:0A:79:DD:08:D1:E8:59:30:B9:E9:48:85:F2",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/File-Manager/releases/download/v0.1.1/VictorFiles-v0.1.1-debug.apk",
-          "sizeBytes": 39882804,
-          "sha256": "6322bc1a0d901ae30619139ff78627ed71d51b8ba880b0e9caf0a84c2b2a7624"
+          "url": "https://github.com/Victorious93/File-Manager/releases/download/v0.1.2/app-debug.apk",
+          "sizeBytes": 53863740,
+          "sha256": "11f002482269eb32f7ef44fe54ce7498f1dcb800ec4c8544836d1f315e364c75"
+        }
+      ]
+    },
+    {
+      "id": "edl-commander",
+      "name": "EDL Commander",
+      "repo": "Victorious93/EDL-Commander",
+      "applicationId": "ai.edlcommander.companion",
+      "versionName": "0.2.0-phase3",
+      "versionCode": 1,
+      "debugBuild": true,
+      "buildType": "debug",
+      "releaseTag": "v0.1.0-debug",
+      "releaseNotesUrl": "https://github.com/Victorious93/EDL-Commander/releases/tag/v0.1.0-debug",
+      "publishedAt": "2026-10-31T03:06:42Z",
+      "certSha256": "E5:60:B6:92:BD:E6:51:9E:B7:CB:B5:2C:E4:DC:91:5A:19:E4:41:A0:1A:5D:03:68:82:71:AC:99:78:8A:58:C8",
+      "assets": [
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/EDL-Commander/releases/download/v0.1.0-debug/app-debug.apk",
+          "sizeBytes": 10862403,
+          "sha256": "00872116ea5bca3257c99c0e973874e86486fdb370a9a6328dc01075b4e5c2b3"
+        }
+      ]
+    },
+    {
+      "id": "victorious-mesh",
+      "name": "Victorious Mesh",
+      "repo": "Victorious93/victorious-mesh",
+      "applicationId": "com.victorious.mesh",
+      "versionName": "1.105.4-t689a0c155-g7e85ccd0d",
+      "versionCode": 298856610,
+      "debugBuild": true,
+      "buildType": "debug",
+      "releaseTag": "v0.1.0-debug",
+      "releaseNotesUrl": "https://github.com/Victorious93/victorious-mesh/releases/tag/v0.1.0-debug",
+      "publishedAt": "2026-10-31T03:06:53Z",
+      "certSha256": "F4:C9:25:B8:E8:0B:55:AB:83:E6:04:13:EE:49:86:57:DF:85:03:BB:30:D8:1F:9F:17:43:F2:2B:F5:36:B9:F4",
+      "assets": [
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/victorious-mesh/releases/download/v0.1.0-debug/victorious-mesh-debug.apk",
+          "sizeBytes": 68705716,
+          "sha256": "c80a37cfc91d1316d70bd2c423cc6add35a23c1cdde8b861464f8e0224013b01"
+        }
+      ]
+    },
+    {
+      "id": "victormango",
+      "name": "VictorMango",
+      "repo": "Victorious93/victormango",
+      "applicationId": "com.victorious.mango",
+      "versionName": "0.1.0",
+      "versionCode": 1,
+      "debugBuild": true,
+      "buildType": "debug",
+      "releaseTag": "v0.1.0-debug",
+      "releaseNotesUrl": "https://github.com/Victorious93/victormango/releases/tag/v0.1.0-debug",
+      "publishedAt": "2026-10-31T03:07:01Z",
+      "certSha256": "08:02:D9:4C:BB:CB:C3:F8:0C:9D:2F:C5:30:57:9E:5B:BD:E2:26:AC:7C:40:F4:52:31:0C:A1:0A:DA:EC:FE:55",
+      "assets": [
+        {
+          "abi": "universal",
+          "url": "https://github.com/Victorious93/victormango/releases/download/v0.1.0-debug/app-debug.apk",
+          "sizeBytes": 17456221,
+          "sha256": "9f5e918c6e38ba114c9df0391cd80dc438b95314a597f23d4324d17118ffaa05"
         }
       ]
     }

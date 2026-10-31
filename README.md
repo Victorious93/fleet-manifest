@@ -5,6 +5,8 @@
 
 # fleet-manifest
 
+🛍️ **[ShopVictorious](https://victorious93.github.io/fleet-manifest/shop/)** — Victorious Apparel merch (buy links coming soon)
+
 Fleet APK update feed and status/planning docs for the Victorious fleet.
 
 **Package id:** `n/a (manifest)`

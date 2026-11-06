@@ -64,7 +64,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 <<'PY'
-          import json, os, re, subprocess, tempfile, urllib.request, fnmatch, datetime
+          import json, os, re, subprocess, tempfile, time, urllib.error, urllib.request, fnmatch, datetime
           from pathlib import Path
 
           token = os.environ["GH_TOKEN"]
@@ -182,7 +182,29 @@ jobs:
                   if abi in by_abi:
                       continue
                   dest = tmp / f"{entry['id']}-{a['name']}"
-                  urllib.request.urlretrieve(a["browser_download_url"], dest)
+                  # GitHub release CDN occasionally returns 5xx/504; retry briefly.
+                  last_err = None
+                  for attempt in range(1, 5):
+                      try:
+                          urllib.request.urlretrieve(a["browser_download_url"], dest)
+                          last_err = None
+                          break
+                      except urllib.error.HTTPError as e:
+                          last_err = e
+                          if e.code not in (408, 429, 500, 502, 503, 504) or attempt == 4:
+                              raise
+                          wait = min(2 ** attempt, 20)
+                          print(f"warn {repo}: download {a['name']} HTTP {e.code}, retry {attempt}/4 in {wait}s")
+                          time.sleep(wait)
+                      except urllib.error.URLError as e:
+                          last_err = e
+                          if attempt == 4:
+                              raise
+                          wait = min(2 ** attempt, 20)
+                          print(f"warn {repo}: download {a['name']} {e}, retry {attempt}/4 in {wait}s")
+                          time.sleep(wait)
+                  if last_err is not None:
+                      raise last_err
                   sha = digest_sha256(a, dest)
                   application_id, version_code, version_name, min_sdk, debuggable = dump_badging(
                       dest

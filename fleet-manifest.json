@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T12:27:35Z",
+  "generatedAt": "2026-11-10T14:52:51Z",
   "apps": [
     {
       "id": "droidcommand-ai",
@@ -11,16 +11,16 @@
       "versionCode": 1,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.3",
-      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.3",
-      "publishedAt": "2026-10-31T08:14:06Z",
+      "releaseTag": "v0.1.4",
+      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.4",
+      "publishedAt": "2026-11-10T04:01:31Z",
       "certSha256": "88:00:51:A6:D9:5D:38:DD:8D:81:E1:93:1E:17:05:48:03:87:D5:93:C3:09:43:53:99:68:E6:EF:11:A0:C8:4D",
       "assets": [
         {
           "abi": "arm64-v8a",
-          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.3/app-arm64-debug.apk",
-          "sizeBytes": 214762934,
-          "sha256": "656c0e8fc97be006733ba061fe497c47b0cca62da70dbc02215ce5a4203b100b"
+          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.4/app-arm64-debug.apk",
+          "sizeBytes": 215307627,
+          "sha256": "f15d6f695a29effb02fbb723ddc7b62439017dda0ccc9cf040815a3e01f5fc56"
         }
       ]
     },
@@ -73,44 +73,44 @@
       "name": "VictorSuite",
       "repo": "Victorious93/VictorSuite",
       "applicationId": "com.termux",
-      "versionName": "0.118.3.59",
-      "versionCode": 121,
+      "versionName": "0.118.3.62",
+      "versionCode": 124,
       "debugBuild": false,
       "buildType": "release",
-      "releaseTag": "v0.118.3.59",
-      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.59",
-      "publishedAt": "2026-10-31T04:57:52Z",
+      "releaseTag": "v0.118.3.62",
+      "releaseNotesUrl": "https://github.com/Victorious93/VictorSuite/releases/tag/v0.118.3.62",
+      "publishedAt": "2026-11-10T05:55:12Z",
       "certSha256": "8C:BF:09:AA:5D:0D:24:6B:5A:97:C9:5D:2E:70:DC:0C:5F:5B:D3:33:8C:39:9A:97:88:91:09:A1:0D:CE:19:80",
       "assets": [
         {
           "abi": "arm64-v8a",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_arm64-v8a.apk",
-          "sizeBytes": 83489132,
-          "sha256": "21d15215e0fb99c216a96d2f36c4f044bfdba13c37d65d9edbb84779b0fd71e1"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.62/termux-app_apt-android-7-release_arm64-v8a.apk",
+          "sizeBytes": 83293018,
+          "sha256": "7b13845d4f7f36f1916acc1ba4f6dabac1cc115da3fa53fde7278d06dea2f369"
         },
         {
           "abi": "armeabi-v7a",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_armeabi-v7a.apk",
-          "sizeBytes": 78023122,
-          "sha256": "1c0a1f7ac31ab41db7c1c5a7ba61b34f736154c8c687546e72994a1d3be47746"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.62/termux-app_apt-android-7-release_armeabi-v7a.apk",
+          "sizeBytes": 77827021,
+          "sha256": "2edff0bb124f54fc8ecf599e628ece6fde0245f2d37969e85f4973ed0b920e53"
         },
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_universal.apk",
-          "sizeBytes": 177345511,
-          "sha256": "90e8a7a3785ab3bd6b66a0747dbb3102d368e50dc9f474eca625737634bf34af"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.62/termux-app_apt-android-7-release_universal.apk",
+          "sizeBytes": 177149410,
+          "sha256": "d74e20c146e58964ed0e5a13d9d8488c4cdc775babbe355a8c3013de907ca2d7"
         },
         {
           "abi": "x86",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_x86.apk",
-          "sizeBytes": 80774484,
-          "sha256": "52c241a8c9724bc1cedf173cf157aef0c459bb9ba2c79e8cadaaa1717eef2582"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.62/termux-app_apt-android-7-release_x86.apk",
+          "sizeBytes": 80578365,
+          "sha256": "2ccf91e2e2c667c9574443f7cd6d5338228aae01635763dd19324087acc3d9c3"
         },
         {
           "abi": "x86_64",
-          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.59/termux-app_apt-android-7-release_x86_64.apk",
-          "sizeBytes": 81324133,
-          "sha256": "4834337f99beae7f4473f00d5e5eff3b510206b7ed36d13d8cddb4800ce1cd57"
+          "url": "https://github.com/Victorious93/VictorSuite/releases/download/v0.118.3.62/termux-app_apt-android-7-release_x86_64.apk",
+          "sizeBytes": 81128011,
+          "sha256": "e8e9a58f88cb65b52b704c33f55a7df651451e6886ec3bf6c1345f7d14708e49"
         }
       ]
     },
@@ -119,20 +119,20 @@
       "name": "HackerAI Commander",
       "repo": "Victorious93/HackerAI-Commander",
       "applicationId": "ai.hackerai.companion",
-      "versionName": "0.1.0",
-      "versionCode": 100,
+      "versionName": "0.2.0",
+      "versionCode": 200,
       "debugBuild": false,
       "buildType": "release",
-      "releaseTag": "v0.1.0",
-      "releaseNotesUrl": "https://github.com/Victorious93/HackerAI-Commander/releases/tag/v0.1.0",
-      "publishedAt": "2026-10-18T01:14:57Z",
+      "releaseTag": "v0.2.0",
+      "releaseNotesUrl": "https://github.com/Victorious93/HackerAI-Commander/releases/tag/v0.2.0",
+      "publishedAt": "2026-11-10T04:25:26Z",
       "certSha256": "9E:A7:B3:14:94:5B:0A:62:97:15:6F:F7:06:E7:0C:0A:B1:B7:24:DE:06:D5:09:9C:A5:12:8A:B4:43:F7:2D:8D",
       "assets": [
         {
           "abi": "universal",
-          "url": "https://github.com/Victorious93/HackerAI-Commander/releases/download/v0.1.0/hackerai-companion-v0.1.0.apk",
-          "sizeBytes": 1746119,
-          "sha256": "b0978b0af5ee78f5b512e1e9f778a4b2bad7b9df4beca416d0e98f8bf060f41b"
+          "url": "https://github.com/Victorious93/HackerAI-Commander/releases/download/v0.2.0/hackerai-companion-v0.2.0.apk",
+          "sizeBytes": 1857660,
+          "sha256": "a28e6d724a3ebc127f87b34eca2e3bd8ea1fc99f18cdd39c74519d0f1d36659c"
         }
       ]
     },

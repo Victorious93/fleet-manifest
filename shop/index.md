@@ -91,5 +91,73 @@ body{background:#0B0F1A;color:#e6e8ef}.sv{background:#0B0F1A;color:#e6e8ef;font-
 <a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
 </div>
 </div>
+<h2>VICTORIOUS Hats</h2>
+<p class="sv-note">Snapback, fitted, dad hat and beanie in the Crowned V and the Hooded V. Mockups only; prices are estimates, not final.</p>
+<div class="sv-grid">
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logoa-snapback-front34.jpg" alt="VICTORIOUS Crowned V Snapback — Black mockup" loading="lazy">
+<h3>VICTORIOUS Crowned V Snapback — Black</h3>
+<p>High-crown, flat-bill structured snapback. 3D-puff crowned neon V on the front, hooded V side hit. Adjustable snap closure.</p>
+<p class="sv-price">$38 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logob-snapback-front34.jpg" alt="VICTORIOUS Framework Snapback — Black mockup" loading="lazy">
+<h3>VICTORIOUS Framework Snapback — Black</h3>
+<p>High-crown, flat-bill structured snapback. 3D-puff hooded V with red X eyes on the front, crowned V side hit. Adjustable snap closure.</p>
+<p class="sv-price">$38 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logoa-fitted-front34.jpg" alt="VICTORIOUS Crowned V Fitted Cap — Black mockup" loading="lazy">
+<h3>VICTORIOUS Crowned V Fitted Cap — Black</h3>
+<p>Structured high-crown fitted cap with a closed back. 3D-puff crowned neon V on the front, hooded V side hit.</p>
+<p class="sv-price">$42 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logob-fitted-front34.jpg" alt="VICTORIOUS Framework Fitted Cap — Black mockup" loading="lazy">
+<h3>VICTORIOUS Framework Fitted Cap — Black</h3>
+<p>Structured high-crown fitted cap with a closed back. 3D-puff hooded V on the front, crowned V side hit.</p>
+<p class="sv-price">$42 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logoa-dadhat-front34.jpg" alt="VICTORIOUS Crowned V Dad Hat — Black mockup" loading="lazy">
+<h3>VICTORIOUS Crowned V Dad Hat — Black</h3>
+<p>Unstructured washed-cotton 6-panel dad hat with a curved bill. Flat-embroidered crowned neon V on the front.</p>
+<p class="sv-price">$32 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logob-dadhat-front34.jpg" alt="VICTORIOUS Framework Dad Hat — Black mockup" loading="lazy">
+<h3>VICTORIOUS Framework Dad Hat — Black</h3>
+<p>Unstructured washed-cotton 6-panel dad hat with a curved bill. Flat-embroidered hooded V with red X eyes on the front.</p>
+<p class="sv-price">$32 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logoa-beanie-front.jpg" alt="VICTORIOUS Crowned V Cuffed Beanie — Black mockup" loading="lazy">
+<h3>VICTORIOUS Crowned V Cuffed Beanie — Black</h3>
+<p>Rib-knit cuffed beanie. Flat-embroidered crowned neon V on the cuff, about 2.5 in.</p>
+<p class="sv-price">$28 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+<div class="sv-card">
+<img src="{{ site.baseurl }}/assets/shop/hats/logob-beanie-front.jpg" alt="VICTORIOUS Framework Cuffed Beanie — Black mockup" loading="lazy">
+<h3>VICTORIOUS Framework Cuffed Beanie — Black</h3>
+<p>Rib-knit cuffed beanie. Flat-embroidered hooded V with red X eyes on the cuff, about 2.5 in.</p>
+<p class="sv-price">$28 <small>(est.)</small></p>
+<!-- REPLACE WITH STORE LINK -->
+<a class="sv-buy" href="#" aria-disabled="true">Coming soon</a>
+</div>
+</div>
 <p class="sv-note">Hats: fitted 7 to 7 5/8 (S/M to XL). Apparel: S to 3XL.</p>
 </div>

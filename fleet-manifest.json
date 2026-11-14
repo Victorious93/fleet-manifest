@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T14:34:37Z",
+  "generatedAt": "2026-11-14T13:30:37Z",
   "apps": [
     {
       "id": "droidcommand-ai",
       "name": "DroidCommand AI",
       "repo": "Victorious93/droidcommand-AI",
       "applicationId": "ai.droidcommand.app",
-      "versionName": "0.1.0-phase0",
-      "versionCode": 1,
+      "versionName": "0.1.7",
+      "versionCode": 107,
       "debugBuild": true,
       "buildType": "debug",
-      "releaseTag": "v0.1.6",
-      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.6",
-      "publishedAt": "2026-11-13T01:18:30Z",
+      "releaseTag": "v0.1.7",
+      "releaseNotesUrl": "https://github.com/Victorious93/droidcommand-AI/releases/tag/v0.1.7",
+      "publishedAt": "2026-11-13T21:24:47Z",
       "certSha256": "88:00:51:A6:D9:5D:38:DD:8D:81:E1:93:1E:17:05:48:03:87:D5:93:C3:09:43:53:99:68:E6:EF:11:A0:C8:4D",
       "assets": [
         {
           "abi": "arm64-v8a",
-          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.6/app-arm64-debug.apk",
-          "sizeBytes": 216304619,
-          "sha256": "20d1347850932c73db70c0f46ec8d75f40a18e0e5a4346947c73c26ad697853a"
+          "url": "https://github.com/Victorious93/droidcommand-AI/releases/download/v0.1.7/app-arm64-debug.apk",
+          "sizeBytes": 216320995,
+          "sha256": "eb8e85fdf4a60fe6deda478ccc245c65bf3d3424ea6d049f7771a51170116be9"
         }
       ]
     },

@@ -95,4 +95,4 @@ Issues and pull requests are welcome. Keep changes focused, match the existing c
 
 ## License
 
-This repository does not include a LICENSE file yet, so no license is granted beyond what the author states elsewhere. Shop images are the owner's artwork; please open an issue before reusing them.
+This repository does not include a LICENSE file yet, so no license is granted beyond what the author states elsewhere. Please open an issue before reusing the shop images.

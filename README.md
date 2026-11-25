@@ -1,32 +1,30 @@
-<p align="center"><a href="https://victorious93.github.io/fleet-manifest/"><strong>Home</strong></a> | <a href="https://victorious93.github.io/fleet-manifest/shop/"><strong>Shop</strong></a></p>
+<div align="center">
 
-<!-- victorious-fleet-readme-refresh:start -->
-<p align="center">
-  <img src="assets/logo.jpg" alt="fleet-manifest logo" width="200">
-</p>
+<img src="assets/logo.jpg" width="200" alt="fleet-manifest logo"/>
 
 # fleet-manifest
 
-🛍️ **[ShopVictorious](https://victorious93.github.io/fleet-manifest/shop/)** — Victorious Apparel merch (buy links coming soon)
+**Fleet APK update feed, trust pins and status docs for the Victorious fleet.**
 
-Fleet APK update feed and status/planning docs for the Victorious fleet.
+<p>
+  <a href="https://github.com/Victorious93/fleet-manifest/actions/workflows/update-manifest.yml"><img src="https://img.shields.io/github/actions/workflow/status/Victorious93/fleet-manifest/update-manifest.yml?branch=main&style=flat-square&labelColor=0B0F1A&logo=githubactions&logoColor=00E5FF&label=CI" alt="CI"/></a>
+  <img src="https://img.shields.io/badge/platform-JSON%20feed-00E5FF?style=flat-square&labelColor=0B0F1A" alt="Platform"/>
+  <a href="https://victorious-framework.pages.dev"><img src="https://img.shields.io/badge/Victorious-Framework-FF2BD6?style=flat-square&labelColor=0B0F1A" alt="Victorious Framework"/></a>
+</p>
 
-**Package id:** `n/a (manifest)`
+<p><a href="https://victorious-framework.pages.dev">Victorious Framework</a></p>
 
-**Status:** CI green (docs/feed) *(from [fleet-manifest ROADMAP](https://github.com/Victorious93/fleet-manifest/blob/main/ROADMAP.md))*
+</div>
 
-## Install / build
+---
 
-No app build. Authoritative feed: `fleet-manifest.json`; status: `ROADMAP.md`.
+Fleet APK update feed and status/planning docs for the Victorious fleet. There is no app to build: the authoritative feed is [`fleet-manifest.json`](fleet-manifest.json) and the status board is [`ROADMAP.md`](ROADMAP.md).
 
-_Steps above are taken from this repo’s build files / existing docs; anything not exercised in this refresh is unlabeled as verified on a device._
+<p align="center"><a href="https://victorious93.github.io/fleet-manifest/"><strong>Home</strong></a> | <a href="https://victorious93.github.io/fleet-manifest/shop/"><strong>Shop</strong></a></p>
 
-## Victorious fleet
+🛍️ **[ShopVictorious](https://victorious93.github.io/fleet-manifest/shop/)**: Victorious Apparel merch (buy links coming soon).
 
-- Monorepo: [https://github.com/Victorious93/victorious-fleet](https://github.com/Victorious93/victorious-fleet)
-- Fleet site: [https://victorious-framework.pages.dev](https://victorious-framework.pages.dev)
-
-<!-- victorious-fleet-readme-refresh:end -->
+## What it is
 
 Public index of the latest Android APKs across Don’s Victorious fleet apps: versions, download URLs, content SHA-256, signer cert, and debug/release flags.
 
@@ -78,3 +76,23 @@ Current Gradle / pairing id: **`ai.victorious.filemanager`** (rename from `ai.vi
 ## Out of scope
 
 VictorLink64 is not part of this fleet index.
+
+## Use it
+
+Read the live feed at the URL above (or the raw fallback). Clients must apply the trust model before trusting any entry. Feed updates are committed automatically by the `update-manifest` workflow, so edit `apps.yml` (not `fleet-manifest.json`) to change which apps are covered.
+
+---
+
+## Victorious fleet
+
+fleet-manifest is part of the [Victorious Framework](https://victorious-framework.pages.dev), a family of Android and PC tools by Don Victor. **Every app works standalone; fleet integrations are optional** and never required.
+
+Related: [victorious-fleet](https://github.com/Victorious93/victorious-fleet) (index of all fleet apps), [droidcommand-AI](https://github.com/Victorious93/droidcommand-AI) (fleet controller), [VictorLaunch](https://github.com/Victorious93/victorlaunch) (fleet launcher and theme provider). The full roster lives in [victorious-fleet](https://github.com/Victorious93/victorious-fleet), and live status is in [fleet-manifest](https://github.com/Victorious93/fleet-manifest).
+
+## Contributing
+
+Issues and pull requests are welcome. Keep changes focused, match the existing code style, never commit secrets or release keys, and keep any fleet integration optional so the app still works on its own. Open a PR against the default branch and wait for CI to pass.
+
+## License
+
+This repository does not include a LICENSE file yet, so no license is granted beyond what the author states elsewhere. Please open an issue before reusing the shop images.
